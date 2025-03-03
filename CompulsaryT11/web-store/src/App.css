@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: "Bangers", "Orbitron", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding-top: 80px; /* Push content down below fixed navbar */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+}
+
+button {
+  background: red;
+  border: none;
+  padding: 14px 20px;
+  font-family: "Bangers", sans-serif;
+  font-size: 10px;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: yellow;
+  transform: scale(1.1);
+}
+
+.shipping-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.shipping-container select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+.help-text {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+}

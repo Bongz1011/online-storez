@@ -1,0 +1,34 @@
+nav {
+    background: linear-gradient(to right, black, red);
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+    gap: 30px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    font-family: "Bangers", "Orbitron", sans-serif;
+    font-size: 24px;
+    color: black;
+    text-decoration: blue;
+    padding: 10px 20px;
+    transition: transform 0.3s ease-in-out, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    transform: scale(1.2);
+    color: red;
+  }
+  
